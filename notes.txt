@@ -1,3 +1,27 @@
 *** Advantages of classes over structures?
 -> data hiding is not possible in structures
--> functions cant be added in structures
+-> functions cant be added in structure
+
+//////////////////////////////////////////////////////////////////////
+
+NESTING OF MEMBER FUNCTIONS :
+
+OOPS -> classes and objects
+
+class -> extension of structures (in C)
+structures had limitations
+    -> no data hiding
+    -> no functions inside structures
+classes -> structures + more
+classes -> can have methods and properties
+classes -> can make few members as private & few as public
+structures in C++ are typedefed
+you can declare objects along with class declaration
+    /*class Employee {
+        // Class definition
+    } John, Daisy, Julia;*/
+John.salary = 8 makes no sense if salary is private
+
+Nesting of member functions
+
+//////////////////////////////////////////////////////////////////////
