@@ -22,6 +22,19 @@ you can declare objects along with class declaration
     } John, Daisy, Julia;*/
 John.salary = 8 makes no sense if salary is private
 
-Nesting of member functions
+//////////////////////////////////////////////////////////////////////
+STATIC MEMBERS AND METHODS
+
+-> static members must declared inside the class and must be defined outside the class
+Syntax : int Employee :: count;
+-> default value of static members is 0
+-> static members in a class are shared across all instances of the class rather than being tied to a specific instance
+-> a single copy exists for all objects
+-> scope = inside the class 
+-> visibility = jab tak program terminate nahi ho jata
+
+
+Static methods : can access only static variables
+-> can be called without creating objects
 
 //////////////////////////////////////////////////////////////////////
